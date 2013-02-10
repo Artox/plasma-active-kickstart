@@ -27,7 +27,13 @@ Configurations:
     PostScripts:
         - scripts/pandaboard-sw-cursor-enable.post
         - scripts/qt-graphicssystem-opengl.post
-        
+
+  - Name: Plasma Active GTA04
+    FileName: plasma-active-armv7l-gta04
+    Inherit:
+        - Plasma Active
+        - Nemo Adaptation GTA04
+
   - Name: Plasma Active i586 Virtual Machine
     FileName: plasma-active-i586-vm
     RepositoryArchitecture: i586
