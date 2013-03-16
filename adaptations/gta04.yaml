@@ -16,4 +16,4 @@ Nemo Adaptation GTA04:
         - gta04-xorg-config
         - kernel-gta04-hwvalidation
         - ti-omap3-es5.x-armel-pvr = 14.2616
-        - xf86-video-omapfb
+        - xorg-x11-drv-omapfb

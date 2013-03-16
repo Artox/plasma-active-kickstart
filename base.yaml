@@ -75,3 +75,22 @@ Configurations:
         - Nemo Adaptation x86 generic
         - SSSE3 enabled X86 architecture
 
+  - Name: Plasma Active Google Nexus7
+    FileName: plasma-active-armv7hl-google-nexus7
+    Inherit:
+        - Plasma Active
+        - Nemo Adaptation Google Nexus7
+    Repos:
+        - plasma-adaptation-nexus7
+
+  - Name: Plasma Active Adaptation Archos Gen9 Framebuffer
+    FileName: plasma-active-armv7l-archos-gen9-fb
+    Inherit:
+        - Plasma Active
+        - Mer Extras Adaptation Archos Gen9 Framebuffer
+
+  - Name: Plasma Active Adaptation Archos Gen9 PVR
+    FileName: plasma-active-armv7l-archos-gen9-pvr
+    Inherit:
+        - Plasma Active
+        - Mer Extras Adaptation Archos Gen9 PVR
