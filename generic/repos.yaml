@@ -64,3 +64,6 @@ Repositories:
 
     -   Name: omap-gfxsdk-3_01_00_06
         Url:  http://repo.merproject.org/obs/home:/mayerjosua:/GFXSDK_3_01_00_06/latest_@ARCH@/
+
+    -   Name: nemo-devel-mw-adaptation-gta04
+        Url:  http://repo.merproject.org/obs/home:/mayerjosua:/nemomwbranch/nemo_devel_mw_latest_@ARCH@/

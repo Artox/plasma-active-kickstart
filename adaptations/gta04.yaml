@@ -5,6 +5,7 @@ Nemo Adaptation GTA04:
     Repos:
         - adaptation-gta04
         - omap-gfxsdk-3_01_00_06
+        - nemo-devel-mw-adaptation-gta04
     PostScripts:
         - gta04.post
     ExtraPackages:
