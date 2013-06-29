@@ -11,9 +11,11 @@ Plasma Active:
         Repos:
         - mer-core
         - mer-core-debug
+        - mer-updates
         - kde-mw
         - nemo-mw
         - kde-ux
+        - kde-apps
 
         # user setup
         RootPass: mer
@@ -117,6 +119,7 @@ Plasma Active:
         - plasmoid-networkmanagement
         - plasma-active-config-blacklist
         - bodega-client
+        - ssu-vendor-data-kde
 
         # add kde-security packages
         - encfs
@@ -138,8 +141,6 @@ Plasma Active:
         - plasma-mediacenter
 
         - -okular
-
-
 
         PostScripts:
         - scripts/free-space.post
