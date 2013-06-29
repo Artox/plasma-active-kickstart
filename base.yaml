@@ -38,12 +38,26 @@ Configurations:
         - scripts/qt-graphicssystem-opengl.post
 
   - Name: Plasma Active GTA04
-    FileName: plasma-active-armv7l-gta04
+    FileName: plasma-active-armv7hl-gta04
     Inherit:
+        - ARMv7 hardfp architecture
         - Plasma Active
         - Nemo Adaptation GTA04
     ExtraPackages:
         - nemo-mobile-session
+        - kernel-gta04-neil-plus
+        - mesa-llvmpipe-dri-swrast-driver
+
+  - Name: Plasma Active GTA04 PVR
+    FileName: plasma-active-armv7l-gta04-pvr
+    Inherit:
+        - ARMv7 softfp architecture
+        - Plasma Active
+        - Nemo Adaptation GTA04
+    ExtraPackages:
+        - nemo-mobile-session
+        - kernel-gta04-hwvalidation
+        - ti-omap3-es5.x-armel-pvr = 14.2616
 
   - Name: Plasma Active Sunxi Generic
     FileName: plasma-active-armv7hl-sunxi-generic

@@ -2,8 +2,6 @@ Nemo Adaptation GTA04:
     PartSize: 1500
     FileSystem: ext3
     Mic2Options: -f fs --compress-disk-image=tar.bz2 --record-pkgs=name --pkgmgr=yum
-    Inherit:
-        - ARMv7 softfp architecture
     Repos:
         - adaptation-gta04
         - omap-gfxsdk-3_01_00_06
@@ -14,6 +12,4 @@ Nemo Adaptation GTA04:
         - gta04-usbnet
         - gta04-usbnet-networkmanager
         - gta04-xorg-config
-        - kernel-gta04-hwvalidation
-        - ti-omap3-es5.x-armel-pvr = 14.2616
         - xorg-x11-drv-omapfb
