@@ -5,7 +5,7 @@ Nemo Adaptation GTA04:
     Inherit:
         - ARMv7 softfp architecture
     Repos:
-        - ce-adaptation-gta04
+        - adaptation-gta04
         - omap-gfxsdk-3_01_00_06
     PostScripts:
         - gta04.post

@@ -58,3 +58,9 @@ Repositories:
 
     -   Name: home-notmart-branches-home-mdfe-hw-sunxi
         Url:  http://repo.merproject.org/obs/home:/notmart:/branches:/home:/mdfe:/hw:/sunxi/@MER_RELEASE@_@ARCH@/
+
+    -   Name: adaptation-gta04
+        Url:  http://repo.merproject.org/obs/home:/mayerjosua/latest_@ARCH@/
+
+    -   Name: omap-gfxsdk-3_01_00_06
+        Url:  http://repo.merproject.org/obs/home:/mayerjosua:/GFXSDK_3_01_00_06/latest_@ARCH@/
