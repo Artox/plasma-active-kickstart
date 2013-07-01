@@ -68,5 +68,5 @@ Repositories:
     -   Name: omap-gfxsdk-4_08_00_02
         Url:  http://repo.merproject.org/obs/home:/mayerjosua:/GFXSDK_4_08_00_02/latest_@ARCH@/
 
-    -   Name: nemo-devel-mw-adaptation-gta04
-        Url:  http://repo.merproject.org/obs/home:/mayerjosua:/nemomwbranch/nemo_devel_mw_latest_@ARCH@/
+    -   Name: gta04-maliit-hacks
+        Url:  http://repo.merproject.org/obs/home:/mayerjosua:/maliit/latest_@ARCH@/
