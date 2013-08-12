@@ -1,1 +1,10 @@
 #!/bin/sh
+
+# So OpenGL is problematic with QT
+# Disabling it
+echo "QT_DEFAULT_RUNTIME_SYSTEM=raster" > /etc/sysconfig/nemo-mobile-hw
+
+# disable it for plasma too
+echo "" >> /usr/share/kde4/config/plasmarc
+echo "[General]" >> /usr/share/kde4/config/plasmarc
+echo "UseOpenGl=false" >> /usr/share/kde4/config/plasmarc
